@@ -1,8 +1,3 @@
-resource "random_string" "deployment_variable" {
-  length  = 10
-  special = false
-}
-
 variable "api_name" {}
 
 variable "api_description" {}
