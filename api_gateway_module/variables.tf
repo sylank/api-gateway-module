@@ -12,7 +12,6 @@ variable "stage_name" {
 }
 
 variable "deployed_at" {
-  default = "${random_string.deployment_variable.result}"
 }
 
 variable "root_path" {}

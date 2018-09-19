@@ -13,7 +13,7 @@ resource "aws_api_gateway_deployment" "deployment" {
   stage_name  = "${var.stage_name}"
 
   variables = {
-    "deployed_at" = "${var.deployed_at}"
+    "deployed_at" = "${random_string.deployment_variable.result}"
   }
 }
 
