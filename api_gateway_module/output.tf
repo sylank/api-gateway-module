@@ -6,10 +6,6 @@ output "root_resource_id" {
   value = "${aws_api_gateway_resource.root_resource.id}"
 }
 
-output "stage_name" {
-  value = "api"
-}
-
 output "root_path_part" {
   value = "${aws_api_gateway_resource.root_resource.path_part}"
 }
