@@ -1,4 +1,4 @@
-resource "aws_api_gateway_account" "demo" {
+/*resource "aws_api_gateway_account" "demo" {
   cloudwatch_role_arn = "${aws_iam_role.cloudwatch.arn}"
 }
 
@@ -54,3 +54,4 @@ resource "aws_cloudwatch_log_group" "gateway_logging" {
   retention_in_days = "${var.retention_in_days}"
 }
 
+*/
