@@ -10,3 +10,7 @@ variable "deployed_at" {
 }
 
 variable "root_path" {}
+
+variable "retention_in_days" {
+  default = 7
+}
