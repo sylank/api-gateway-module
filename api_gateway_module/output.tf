@@ -7,7 +7,7 @@ output "root_resource_id" {
 }
 
 output "stage_name" {
-  value = "${aws_api_gateway_deployment.deployment.stage_name}"
+  value = "api"
 }
 
 output "root_path_part" {
